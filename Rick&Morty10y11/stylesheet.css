@@ -1,0 +1,15 @@
+.characterList {
+    display: flex; /*Aplico flexbox para que las cajas se pongan en una fila*/
+    flex-wrap: wrap; /*Para que la web no de desplaze infinitamente a la derecha */
+    justify-content: center; /*Centro las columnas */
+}
+
+.character-item  {
+    border: 1px solid black; /*Agrego borde a cada caja*/
+    margin: 10px; /*Distancia entre cada caja*/
+}
+
+h1 {
+    font-size: smaller;
+}
+

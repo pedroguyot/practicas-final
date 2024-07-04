@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lista article,
+article {
+    width: 15%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
+
+.detail {
+    width: 300px;
+}
+
+.lista article img, article img {
+    width: 100%;
+}
